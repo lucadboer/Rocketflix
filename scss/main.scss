@@ -14,6 +14,7 @@ body {
     width: 100vw;
     height: 100vh;
     @include flexColumnCenter();
+    overflow-x: hidden;
 }
 
 header{
@@ -105,6 +106,7 @@ main {
         .textFilm {
             color: $subtitle;
             text-align: center;
+            padding-bottom: 15px;
         }
     }
 }
