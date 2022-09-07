@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serf;
+}
+
+body {
+  background-image: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6em;
+}
+header img {
+  width: 87px;
+}
+header h1 {
+  margin-top: 10px;
+  color: #fffcf9;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.418);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #sectionFilm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  padding-bottom: 25px;
+}
+main #sectionFilm .foundMovie {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  color: #fffcf9;
+  width: 100%;
+  max-width: 760px;
+}
+main #sectionFilm .foundMovie #imgFilm {
+  width: 175px;
+  height: 245px;
+}
+main #sectionFilm .foundMovie #titleTextFilm {
+  padding: 20px;
+}
+main #sectionFilm .foundMovie #titleTextFilm h2 {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+main #sectionFilm .foundMovie #titleTextFilm p {
+  line-height: 28px;
+  text-align: justify;
+  color: white;
+  word-spacing: 0.5px;
+  width: 100%;
+}
+main #sectionBelowFilm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+main #sectionBelowFilm #btnFind {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #000000;
+  border: 3px solid;
+  -o-border-image: linear-gradient(#102d71, #c12a23);
+     border-image: linear-gradient(#102d71, #c12a23);
+  border-image-slice: 15;
+  color: white;
+  padding: 7px 10px;
+  cursor: pointer;
+  transition: 0.35s;
+}
+main #sectionBelowFilm #btnFind span {
+  font-weight: 500;
+  color: white;
+}
+main #sectionBelowFilm #btnFind:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  filter: saturate(2.2);
+}
+main #sectionBelowFilm .textFilm {
+  color: #b3b3b3;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    margin-top: 2em;
+    font-size: 0.8em;
+  }
+  header img {
+    width: 60px;
+  }
+  .foundMovie {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1em;
+  }
+  #sectionBelowFilm {
+    padding-bottom: 15px;
+  }
+  #sectionBelowFilm .textFilm {
+    color: #b3b3b3;
+    text-align: center;
+    padding: 0 5px;
+  }
+  main #sectionBelowFilm #btnFind {
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=main.css.map */
