@@ -3,7 +3,7 @@
 </p>
 
 -------
-Aplicação desenvolvida no intuito de comunicar com a API do themoviedb e encontrar algum filme aleatório obtendo os seguintes dados: capa do filme, título e descrição.
+Aplicação responsiva desenvolvida no intuito de comunicar com a API do themoviedb e encontrar algum filme aleatório obtendo os seguintes dados: capa do filme, título e descrição. Ao obter esses dados, é renderizado para o usuário, podendo realizar a funcionalidade novamente para obter informações de outros filmes.
 
 ## 💻 Tecnologias
 - HTML
@@ -22,6 +22,7 @@ Aplicação desenvolvida no intuito de comunicar com a API do themoviedb e encon
     - Cores
     - Fonte
     - Flexbox
+    - Responsividade
     
 - JavaScript
     - Manipulação da DOM
