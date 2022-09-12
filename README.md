@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="300" src="assets/shuffle.svg">
+    <img width="250" src="assets/shuffle.svg">
 </p>
 
 -------
